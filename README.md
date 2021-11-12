@@ -68,3 +68,39 @@ function equal(){
         document.form.textView.value = eval(x);
     }
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    position: absolute;
+    top: 13%;
+    left: 44.3%;
+    color:mintcream;
+}
+
+body{
+    background: gray;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calculator{
+    background: rgb(238, 21, 76);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textView{
+    width: 255px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px
+}
